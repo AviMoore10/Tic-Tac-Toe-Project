@@ -1,22 +1,9 @@
-# import board
-#
-# new_board = board.Board()
-#
-# new_board.init_board()
+from random import *
 
-# print("Enter your name:")
-# x = input()
-# print("Hello, " + x)
+items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# a = 1
-# print(a)
-# print(str(a))
-#
-# print(a != str(a))
+x = sample(items,  1)   # Pick a random item from the list
+print(x)
 
-a_list = [['b', 'c'],['r', 'm', 'k']]
-
-if 'c' in a_list[0]:
-    print('yes')
-else:
-    print('no')
+y = sample(items, 4)    # Pick 4 random items from the list
+print(y)
